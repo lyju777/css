@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container  {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.wrapper {
+  width: 620px;
+  background-color: white;
+  padding: 40px 30px;
+  border:  1px solid gray;
+  border-radius: 10px;
+}
+
+.wrapper__head {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed gray;
+}
+
+.wrapper__head__title {
+  font-size: 32px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper__head__sub-title {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+#point {
+  color: orange;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-top: 15px;
+}
+
+.wrapper__body {
+  border: 1px solid #dddddd;
+  padding: 20px 30px;
+}
+
+.diary-title {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.kimchi {
+  color: red;
+  font-weight: bold;
+}
+
+.egg {
+  color: orange;
+  font-weight: bold;
+}
+
+.highlight {
+  font-size: 22px;
+  color: rgb(60, 60, 255);
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.diary-date {
+  color: #919191;
+  font-size: 14px;
+  text-align: right;
+}
