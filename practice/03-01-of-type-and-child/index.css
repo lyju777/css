@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.container p:first-child {
+  background-color: red;
+}
+
+.container p:first-of-type {
+  background-color: blue;
+}
+
+.container p:last-of-type {
+  background-color: yellow
+  ;
+}
+
+.container p:nth-of-type(2){
+  background-color: green;
+}
+
+.container span:first-of-type {
+  font-weight: 600;
+  text-decoration: underline;
+}

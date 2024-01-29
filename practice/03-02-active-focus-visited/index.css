@@ -1,0 +1,11 @@
+.button1:active {
+  background-color: red;
+}
+
+.input1:focus {
+  background-color: green;
+}
+
+.link1:visited{
+  color: red;
+}
