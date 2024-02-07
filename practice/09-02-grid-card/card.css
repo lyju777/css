@@ -8,20 +8,24 @@ html,body {
 }
 
 .itemWrap {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 7px ;
 }
 
 .item {
-  width: calc(25% - 7px);
+  /* width: calc(25% - 7px); */
   aspect-ratio: 6 / 5;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .imgBox {
